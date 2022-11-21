@@ -55,6 +55,7 @@ if(!empty($_SESSION['id']==1)){
                 $result_prod = "SELECT idProduto FROM produto WHERE modelo ='".$dados['modelo']."' 
                 AND cor = '".$dados['cor']."' ";
                 $resultado_prod = mysqli_query($conn, $result_prod);
+                
                 if(($resultado_prod) AND ($resultado_prod->num_rows != 0)){
                     $erro = true;
                     $_SESSION['msgCad'] = "Modelo já cadastrado!";
@@ -63,12 +64,13 @@ if(!empty($_SESSION['id']==1)){
         
             if(!$erro){
                 //var_dump($dados);
-                $result_prod = "INSERT INTO produto (modelo, preco, idMarca, cor, idEstilo) VALUES (
+                $result_prod = "INSERT INTO produto (modelo, preco, idMarca, cor, idEstilo, imagem) VALUES (
                                 '".$dados['modelo']."',
                                 '".$dados['preco']."',
                                 '".$dados['marca']."',
                                 '".$dados['cor']."',
-                                '".$dados['categoria']."'
+                                '".$dados['categoria']."',
+                                'NULL'
                                 )";
 
                 $resultado_prod = mysqli_query($conn, $result_prod);
