@@ -27,10 +27,10 @@
                     <div class="nav-menu">
                         <nav class="nav"> 
                             <ul class="nav-options">
-                                <li><a href="./pagina-produtos.php" title="sapato1" >sapato1</a></li>
-                                <li><a href="" title="sapato2" >sapato2</a></li>
-                                <li><a href="" title="sapato3" >sapato3</a></li>
-                                <li><a href="" title="sapato4" >sapato4</a></li>
+                                <li><a href="./pagina-produtos.php" title="sapato1" >Lista de produtos</a></li>
+                                <li><a href="" title="sapato2" >Item 2</a></li>
+                                <li><a href="" title="sapato3" >Item 3</a></li>
+                                <li><a href="" title="sapato4" >Item 4</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -45,7 +45,7 @@
                             <a href=""> <img src="./img/chat.png" alt="" title="chat" height="25px" width="25px"/></a>
                         </div>
                         <div>
-                            <a href="./login.php"> <img src="./img/login.png" alt="" title="login" height="25px" width="25px"/></a>
+                            <a href="sair.php"> <img src="./img/login.png" alt="" title="login" height="25px" width="25px"/></a>
                         </div>
                         <div>
                             <a href=""> <img src="./img/shopping.png" alt="" title="carrinho" height="25px" width="25px"/></a>

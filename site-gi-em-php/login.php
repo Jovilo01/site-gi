@@ -20,7 +20,9 @@
 	<header class="header-registro">
 		<div class="header-itens">
 			<div class="logo">
-				<img src="./img/jordan1.png" />
+				<a href=".\index.php" > 
+                    <img src=".\img\jordan1.png" />
+                </a>
 			</div>
 			<div class="titulo" id="titulo">
 				<h2 class="titulo-login" id="titulo-atual" style="margin-top:20px">Login</h2>
