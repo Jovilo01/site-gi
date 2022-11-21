@@ -1,0 +1,151 @@
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color:initial;
+}
+
+p{
+  color: rgb(163, 163, 163);
+}
+
+.hide{
+  display: none;
+}
+
+.registro-container{
+    width: -webkit-fill-available;
+    min-width: 200px;
+    max-width: 400px;
+    position: absolute;
+    margin: auto;
+    padding: 60px;
+    border: 1px solid transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:4px 4px 10px 0 rgb(216, 216, 216);
+}
+
+.header-itens{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form{
+  position: relative;
+  overflow: hidden;
+}
+
+.form-caixa {
+  margin-bottom: 1rem;
+}
+
+.form-controle {
+  margin: 0 auto;
+  font-family: inherit;
+  width: 100%;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.05);
+  color: #000;
+  font-size: 16px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid transparent;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding: 0 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.form-flex{
+    display: flex !important;
+    margin: 25px 0;
+}
+
+.w-50{
+    width: 50% !important;
+}
+
+.w-50-right{
+    width: 50% !important;
+    float: right;
+    text-align: right;
+}
+
+.remember-checkbox{
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.remember-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  border: 1px solid #bcbcbc;
+  border-radius: 3px;
+  content: "";
+  display: block;
+  height: 20px;
+  left: 0;
+  margin-top: -13px;
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  transition: 0.3s;
+}
+
+.remember-checkbox:hover input ~ .checkmark {
+  background-color: rgb(240, 240, 240);
+}
+
+.remember-checkbox input:checked ~ .checkmark {
+    background-image: url(../img/checkmark.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 11px 8px;
+    background-color: #afd8eb;
+    border: #afd8eb;
+}
+
+.submit{
+  margin: 0px;
+  min-height: unset;
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+  line-height: 13.2px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+  cursor: pointer;
+  box-shadow:2px 2px 2px 0 rgb(46, 46, 46);
+}
+
